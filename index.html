@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Donate</title>
+
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/light.css"/>
+	<link rel="stylesheet" href="https://unpkg.com/tippy.js@6/themes/material.css"/>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" integrity="sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+	<script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+
+</head>
+<body>
+	
+	<div class="wrap">
+		
+		<div class="donate_btn" id="donate_btn">DONATE</div>
+
+	</div>
+
+	<div class="popup" id="popup">
+		
+		<div class="popup_body">
+
+			<img src="./img/close.png" width="50px" height="50px" class="close_icon" id="popup_close" alt="">
+			
+			<img src="./img/donation.png" width="100px" height="100px" alt="" class="donate_img">
+
+			<div class="popup_title">Підтримка Армії</div>
+
+			<div class="popup_text_body">
+
+				<div class="popup_text"><span class="popup_span">Національний банк України</span> ухвалив рішення відкрити спеціальний рахунок для збору коштів на підтримку Збройних Сил України.</div>
+
+				<div class="popup_text">Рахунок - мультивалютний, він створений та відкритий як для переказу коштів від міжнародних партнерів та донорів - у іноземній валюті, так і від українського бізнесу та громадян - у національній валюті.</div>
+
+				<span class="popup_span">Слава Україні! 💙💛</span>
+
+			</div>
+
+			<div class="popup_title">Оберіть Банк Для Пожертви</div>
+
+			<div class="payment_choose">
+				
+				<div class="payment">
+					
+					<img src="./img/завантаження.jpg" width="75px" height="75px" alt="" class="payment_img" id="monobank">
+
+				</div>
+				<div class="payment">
+					
+					<img src="./img/privatbank-r0-square_medium.jpg" width="75px" height="75px" alt="" class="payment_img" id="privatebank">
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<script src="main.js"></script>
+
+</body>
+</html>
