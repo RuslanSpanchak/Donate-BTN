@@ -93,7 +93,7 @@
 
 .popup_body {
 	width: 500px;
-	height: 635px;
+	height: auto;
 
 	background-color: #fff;
 	border-radius: 15px;
@@ -109,6 +109,32 @@
 	flex-direction: column;
 }
 
+.popup_body_qr_code {
+	width: auto;
+
+	padding: 0px;
+
+	background-color: transparent;
+}
+
+.popup_body_top {
+	width: 100%;
+
+	background-color: #536dfe;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.popup_body_bottom {
+	background-color: gold;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
 .donate_img {
 	margin-bottom: 15px;
 }
@@ -119,6 +145,12 @@
 	font-weight: 900;
 
 	margin-bottom: 15px;
+}
+
+.popup_title_qr_code {
+	color: #fff;
+
+	margin: 15px 0px;
 }
 
 .popup_text_body {
@@ -152,6 +184,7 @@
 
 .payment_img {
 	border-radius: 15px;
+	border: 0px solid #999;
 
 	margin: 0px 5px;
 	padding: 5px;
@@ -162,6 +195,17 @@
 
 .payment_img:hover {
 	background-color: #999;
+	border: 1px solid #999;
+}
+
+.payment_img_qr_code {
+	background-color: gold;
+	border: 2px solid blue;
+}
+
+.payment_img_qr_code:hover {
+	background-color: gold;
+	border: 5px solid blue;
 }
 
 .close_icon {
@@ -180,4 +224,20 @@
 
 .close_icon:hover {
 	background-color: #999;
+}
+
+.close_icon_qr_code {
+	background-color: gold;
+	border: 2px solid #536dfe;
+
+	top: -50px;
+	right: -55px;
+}
+
+.close_icon_qr_code:hover {
+	background-color: #ffff4a;
+}
+
+.qr_code_img {
+	padding: 15px;
 }
